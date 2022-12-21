@@ -1,5 +1,5 @@
 # To-do list - react
-![To-do list](https://raw.githubusercontent.com/justynaboesche/to-do-list/main/images/To-do-list2.png) public/To-do-list2.png https://github.com/justynaboesche/todo-list-react/blob/4e58be8ec0e0d3f977003421d21eb4dea8a0cb32/public/To-do-list2.png
+![To-do list]() 
 ## Demo
 [See my to-do list](https://justynaboesche.github.io/todo-list-react/)
 ## Description
@@ -11,7 +11,6 @@ At the beginning you need to enter your first task. To add the task to the list 
 
 ![To-do list GIF](https://raw.githubusercontent.com/justynaboesche/todo-list-react/main/public/to-do-list2.gif)
 
-![To-do list GIF]()
 ## Technologies used in the project
 To create the application I have used:
 - HTML 5
