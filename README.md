@@ -1,5 +1,5 @@
 # To-do list - react
-![To-do list]() 
+![To-do list](public/To-do-list2.png) 
 ## Demo
 [See my to-do list](https://justynaboesche.github.io/todo-list-react/)
 ## Description
