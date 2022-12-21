@@ -21,5 +21,4 @@ const Buttons = ({ tasks, hideDoneTasks }) => (
 
 );
 
-
 export default Buttons;
