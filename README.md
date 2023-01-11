@@ -17,7 +17,7 @@ This simple to-do list allows you to:
 The application has been prepared to be used in convenient way also on smaller devices.
 ## How it works
 
-![To-do list GIF](https://raw.githubusercontent.com/justynaboesche/todo-list-react/main/public/to-do-list2.gif)
+![To-do list GIF](https://raw.githubusercontent.com/justynaboesche/To-do-list-react/main/public/to-do-list2.gif)
 
 ## Technologies used in the project
 To create the application I have used:
