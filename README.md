@@ -1,7 +1,7 @@
 # To-do list - react
 ![To-do list](public/To-do-list2.png) 
 ## Demo
-[See my to-do list](https://justynaboesche.github.io/Todo-list-react/)
+[See my to-do list](https://justynaboesche.github.io/To-do-list-react/)
 ## Description
 This is another version of to-do list created as part of YouCode course.
 
