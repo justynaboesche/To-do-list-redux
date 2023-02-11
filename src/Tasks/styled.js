@@ -26,3 +26,37 @@ export const Content = styled.span`
         text-decoration: line-through;
     `}
 `;
+
+export const Button = styled.button`
+    width: 30px;
+    height: 30px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0px;  
+    transition: background 0.5s;
+
+    ${({toggleDone}) => toggleDone && css`
+        background-color: rgb(36, 129, 36); 
+    `}
+
+        &:hover {
+            background-color: hsl(120, 57%, 36%);
+    }
+
+        &:active {
+            background-color: hsl(120, 76%, 40%);
+    }
+
+    ${({remove}) => remove && css`
+        background-color: rgb(192, 82, 82);
+    `}
+
+        &:hover {
+            background-color: hsl(0, 61%, 60%);
+        }
+
+        &:active {
+            background-color: hsl(0, 61%, 70%);
+    }
+`;
