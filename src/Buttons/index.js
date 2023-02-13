@@ -18,7 +18,6 @@ const Buttons = ({ tasks, hideDone, toggleHideDone, setAllDone }) => (
             </>
         )}
     </Wrapper>
-
 );
 
 export default Buttons;
