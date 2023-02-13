@@ -41,11 +41,11 @@ export const ListButton = styled.button`
 
         &:hover {
             filter: brightness(120%);
-    }
+        }
 
         &:active {
             filter: brightness(110%);
-    }
+        }
     `}
     
     ${({ remove }) => remove && css`
@@ -58,8 +58,6 @@ export const ListButton = styled.button`
 
         &:active {
             filter: brightness(120%);
-    }
-    `}
-
-        
+        }
+    `}      
 `;
