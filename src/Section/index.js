@@ -3,7 +3,7 @@ import { Wrapper, Header, Title, Body } from "./styled";
 const Section = ({ title, body, extraHeaderContent }) => (
   <Wrapper>
     <Header grid>
-      <Title className="section__header--title">
+      <Title>
         {title}
       </Title>
         {extraHeaderContent}
