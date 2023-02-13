@@ -15,7 +15,7 @@ export const Button = styled.button`
     background-color: transparent;
     cursor: pointer;
     padding: 20px; 
-    transition: color 1s;
+    transition: filter 1s;
 
     @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         padding: 10px;
