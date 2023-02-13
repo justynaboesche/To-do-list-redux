@@ -22,11 +22,11 @@ export const Button = styled.button`
     }
 
     &:hover {
-        color: brightness(110%);
+        filter: brightness(110%);
     }
         
     &:active {
-        color: brightness(120%);
+        filter: brightness(120%);
     }
 
     &:disabled {

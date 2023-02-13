@@ -11,10 +11,10 @@ export const Item = styled.li`
     grid-template-columns: auto 1fr auto;
     grid-gap: 10px;
     padding: 10px;
-    border-bottom: 1px solid rgb(180, 169, 169) ;
+    border-bottom: 1px solid ${({ theme }) => theme.color.alto} ;
     align-items: center;  
 
-    ${({hidden}) => hidden && css`
+    ${({ hidden }) => hidden && css`
         display: none;
     `}
 `;
@@ -22,41 +22,44 @@ export const Item = styled.li`
 export const Content = styled.span`
     word-break: break-word;
 
-    ${({done}) => done && css`
+    ${({ done }) => done && css`
         text-decoration: line-through;
     `}
 `;
 
-export const Button = styled.button`
+export const ListButton = styled.button`
     width: 30px;
     height: 30px;
     border: none;
-    color: white;
+    color: ${({ theme }) => theme.color.white};
     cursor: pointer;
     padding: 0px;  
-    transition: background 0.5s;
-
-    ${({toggleDone}) => toggleDone && css`
-        background-color: rgb(36, 129, 36); 
-    `}
+    
+    ${({ toggleDone }) => toggleDone && css`
+        background-color: ${({ theme }) => theme.color.forestGreen};
+        transition: background 0.5s;
 
         &:hover {
-            background-color: hsl(120, 57%, 36%);
+            filter: brightness(120%);
     }
 
         &:active {
-            background-color: hsl(120, 76%, 40%);
+            filter: brightness(110%);
     }
-
-    ${({remove}) => remove && css`
-        background-color: rgb(192, 82, 82);
     `}
+    
+    ${({ remove }) => remove && css`
+        background-color: ${({ theme }) => theme.color.crimson};
+        transition: background 0.5s;
 
         &:hover {
-            background-color: hsl(0, 61%, 60%);
+            filter: brightness(140%);
         }
 
         &:active {
-            background-color: hsl(0, 61%, 70%);
+            filter: brightness(120%);
     }
+    `}
+
+        
 `;
