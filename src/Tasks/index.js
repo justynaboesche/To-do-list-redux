@@ -13,8 +13,11 @@ const Tasks = ({ tasks, hideDone, removeTask, toggleTaskDone }) => (
         >
           {task.done ? "✓" : ""}
         </ListButton>
-        <Content done={task.done}>
-          {task.content}</Content>
+        <Content
+          done={task.done}
+        >
+          {task.content}
+        </Content>
         <ListButton
           remove
           onClick={() => removeTask(task.id)}
@@ -22,7 +25,7 @@ const Tasks = ({ tasks, hideDone, removeTask, toggleTaskDone }) => (
           🗑
         </ListButton>
       </Item>
-))}
+    ))}
   </List >
 );
 
