@@ -2,7 +2,7 @@ import { Wrapper, Header, Title, Body } from "./styled";
 
 const Section = ({ title, body, extraHeaderContent }) => (
   <Wrapper>
-    <Header grid>
+    <Header>
       <Title>
         {title}
       </Title>

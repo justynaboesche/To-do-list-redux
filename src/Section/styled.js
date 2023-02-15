@@ -8,13 +8,10 @@ export const Wrapper = styled.section`
 
 export const Header = styled.header`
     border-bottom: 1px solid ${({ theme }) => theme.color.alto};
-
-    ${({ grid }) => grid && css`
-        display: grid;
-        grid-template-columns: 1fr auto;
-        border-bottom: 1px solid rgb(180, 169, 169);
-        align-items: center;
-    `}
+    display: grid;
+    grid-template-columns: 1fr auto;
+    border-bottom: 1px solid rgb(180, 169, 169);
+    align-items: center;
 
     @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         grid-template-columns: 1fr;
