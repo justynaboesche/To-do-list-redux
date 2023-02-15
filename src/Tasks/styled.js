@@ -33,31 +33,29 @@ export const ListButton = styled.button`
     border: none;
     color: ${({ theme }) => theme.color.white};
     cursor: pointer;
-    padding: 0px;  
+    padding: 0px;
+    transition: 0.5s;  
+`;
     
-    ${({ toggleDone }) => toggleDone && css`
-        background-color: ${({ theme }) => theme.color.forestGreen};
-        transition: background 0.5s;
-
-        &:hover {
-            filter: brightness(120%);
-        }
-
-        &:active {
-            filter: brightness(110%);
-        }
-    `}
+export const ToggleDoneButton = styled(ListButton)`
+    background-color: ${({ theme }) => theme.color.forestGreen};
+       
+    &:hover {
+        filter: brightness(120%);
+    }
+    &:active {
+        filter: brightness(110%);
+    }
+`;
     
-    ${({ remove }) => remove && css`
-        background-color: ${({ theme }) => theme.color.crimson};
-        transition: background 0.5s;
+export const RemoveButton  = styled(ListButton)`
+    background-color: ${({ theme }) => theme.color.crimson};
 
-        &:hover {
-            filter: brightness(140%);
-        }
+    &:hover {
+        filter: brightness(140%);
+    }
 
-        &:active {
-            filter: brightness(120%);
-        }
-    `}      
+    &:active {
+        filter: brightness(120%);
+    }   
 `;
