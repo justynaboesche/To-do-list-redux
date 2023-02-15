@@ -19,7 +19,7 @@ export const Header = styled.header`
     @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         grid-template-columns: 1fr;
         padding-bottom: 20px;
-   }
+    }
 `;
 
 export const Title = styled.h2`
