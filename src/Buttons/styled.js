@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
         display: flex;
         flex-direction: column;
         align-items: center;  
- }
+    }
 `;
 
 export const Button = styled.button`
@@ -33,4 +33,4 @@ export const Button = styled.button`
         color: ${({ theme }) => theme.color.silver};
         cursor: not-allowed;
     }
- `;
+`;
