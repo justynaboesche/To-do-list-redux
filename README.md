@@ -32,6 +32,7 @@ To create the application I have used:
 - React Hooks (useState, useState, useRef, Custom)
 - Local storage
 - Markdown
+- Redux Toolkit
 
 ## Available Scripts
 
