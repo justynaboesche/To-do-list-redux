@@ -1,9 +1,11 @@
 import { useSelector, useDispatch } from "react-redux";
 import { List, Item, Content, ToggleDoneButton, RemoveButton } from "./styled";
-import { selectTasks, toggleTaskDone, removeTask } from "../tasksSlice";
+import { selectTasks, selectHideDone, toggleTaskDone, removeTask } from "../tasksSlice";
 
 const TasksList = () => {
-  const { tasks, hideDone } = useSelector(selectTasks);
+  const tasks = useSelector(selectTasks);
+  const hideDone = useSelector(selectHideDone);
+
   const dispatch = useDispatch();
 
   return (
@@ -11,7 +13,7 @@ const TasksList = () => {
       {tasks.map(task => (
         <Item
           key={task.id}
-          hidden={hideDone && task.done}
+          hidden={task.done && hideDone}
         >
           <ToggleDoneButton
             onClick={() => dispatch(toggleTaskDone(task.id))}
