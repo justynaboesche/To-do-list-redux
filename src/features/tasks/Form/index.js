@@ -4,7 +4,6 @@ import { StyledForm, Input, Button } from "./styled";
 import { useState, useRef } from "react";
 import { addTask } from "../tasksSlice";
 
-
 const Form = () => {
     const [newTaskContent, setNewTaskContent] = useState("");
     const inputRef = useRef(null);
@@ -13,6 +12,7 @@ const Form = () => {
 
     const onFormSubmit = (event) => {
         event.preventDefault();
+        
         if (newTaskContent.trim() === "") {
             return;
         }
