@@ -1,5 +1,6 @@
 import { useSelector, useDispatch } from "react-redux";
-import { Wrapper, Button } from "./styled";
+import { ButtonsWrapper } from "./styled";
+import { Button } from "../Button/styled";
 import {
     toggleHideDone,
     setAllDone,
@@ -20,7 +21,7 @@ const Buttons = () => {
     }
 
     return (
-        <Wrapper>
+        <ButtonsWrapper>
             <>
                 <Button
                     onClick={() => dispatch(toggleHideDone())}
@@ -34,7 +35,7 @@ const Buttons = () => {
                     Ukończ wszystkie
                 </Button>
             </>
-        </Wrapper>
+        </ButtonsWrapper>
     );
 }
 
