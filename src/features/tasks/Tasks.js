@@ -1,6 +1,7 @@
 import Buttons from "./Buttons";
 import Form from "./Form";
 import TaskList from "./TaskList";
+import FetchExampleTasksButton from "./FetchExampleTasksButton";
 import Section from "../../common/Section";
 import Header from "../../common/Header";
 import { Container } from "../../common/Container/styled";
@@ -11,6 +12,9 @@ function Tasks() {
       <Header title="Lista zadań" />
       <Section
         title="Dodaj nowe zadanie"
+        extraHeaderContent={
+          <FetchExampleTasksButton />
+        }
         body={<Form />}
       />
 
