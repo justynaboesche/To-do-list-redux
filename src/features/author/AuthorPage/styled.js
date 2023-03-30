@@ -8,7 +8,7 @@ export const ImageWrapper = styled.p`
 export const Image = styled.img`
   width: 100%;
   border-radius: 50%;
-  max-width: 300px;
+  max-width: 250px;
   box-shadow: 9px 5px 13px ${({ theme }) => theme.color.alto};
 `;
 
