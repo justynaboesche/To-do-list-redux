@@ -1,12 +1,12 @@
-import Buttons from "./Buttons";
-import Form from "./Form";
-import TaskList from "./TaskList";
+import Buttons from "../Buttons";
+import Form from "../Form";
+import TaskList from "../TaskList";
 import FetchExampleTasksButton from "./FetchExampleTasksButton";
-import Section from "../../common/Section";
-import Header from "../../common/Header";
-import { Container } from "../../common/Container/styled";
+import Section from "../../../common/Section";
+import Header from "../../../common/Header";
+import { Container } from "../../../common/Container/styled";
 
-function Tasks() {
+function TasksPage() {
   return (
     <Container>
       <Header title="Lista zadań" />
@@ -27,4 +27,4 @@ function Tasks() {
   );
 }
 
-export default Tasks;
+export default TasksPage;
