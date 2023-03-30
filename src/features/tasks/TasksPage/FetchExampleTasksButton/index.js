@@ -3,7 +3,7 @@ import { ButtonsWrapper } from "../Buttons/styled";
 import { Button } from "../Button/styled";
 import {
     fetchExampleTasks,
-} from "../tasksSlice";
+} from "../../tasksSlice";
 
 const FetchExampleTasksButton = () => {
 
