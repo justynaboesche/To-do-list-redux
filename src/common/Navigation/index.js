@@ -1,24 +1,24 @@
-import { Link } from "react-router-dom";
-
+import { toAuthor, toTasks } from "../../routes"
+import { Nav, List, Item, StyledNavLink } from "./styled";
 
 const Navigation = () => {
-    return (
-<nav>
-      <ul>
-        <li>
-          <Link to="/zadania">
+  return (
+    <Nav>
+      <List>
+        <Item>
+          <StyledNavLink to={toTasks()}>
             Zadania
-          </Link>
-        </li>
-        <li>
-          <Link to="/autor">
+          </StyledNavLink>
+        </Item>
+        <Item>
+          <StyledNavLink to={toAuthor()}>
             O autorze
-          </Link>
-        </li>
-      </ul>
-    </nav>
+          </StyledNavLink>
+        </Item>
+      </List>
+    </Nav>
 
-    );
-    };
+  );
+};
 
 export default Navigation;
