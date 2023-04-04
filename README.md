@@ -5,16 +5,29 @@
 ## Description
 This is another version of to-do list created as part of YouCode course.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+At the top of he application there is a navigation toolbar, which can lead you to the **tasks page** and to the **author page**.
 
-This simple to-do list allows you to:
-- add new tasks to the list below,
+The author page contains some info about me, whereas tasks page includes more complex interactions, devided into three parts:
+
+1. Adding tasks block
+In this part you can add new tasks to the list below and download example tasks by clicking "Pobierz przykładowe zadania" button.
+
+2. Filtering tasks block
+
+Thanks to this part you can filter tasks from the list below.
+
+3. Tasks list block
+
+The last part allows you to:
 - mark completed tasks,
 - remove tasks from the list,
 - hide and show tasks that are marked as done,
 - mark all tasks as done. 
 
-The application has been prepared to be used in convenient way also on smaller devices.
+Moreover, each task contains a subpage, which shows details of the task. You can get to it by clicking on its content.
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 ## How it works
 
 ![To-do list GIF](https://raw.githubusercontent.com/justynaboesche/To-do-list-react/main/public/to-do-list2.gif)
@@ -27,12 +40,19 @@ To create the application I have used:
 - JavaScript ES6+
 - React
 - Create-react-app
+- WebPack
 - Styled-components
 - ThemeProvider
-- React Hooks (useState, useState, useRef, Custom)
+- React Hooks (useState, useState, useRef)
+- Custom Hooks
 - Local storage
 - Markdown
-- Redux Toolkit
+- Promises, async/await
+- React-Redux
+- Redux-Toolkit
+- Redux-Saga
+- Redux-Router
+- Generator function*
 
 ## Available Scripts
 
