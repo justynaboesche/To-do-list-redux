@@ -31,7 +31,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## How it works
 
-![To-do list GIF](https://raw.githubusercontent.com/justynaboesche/To-do-list-react/main/public/to-do-list2.gif)
+![To-do list GIF](https://raw.githubusercontent.com/justynaboesche/To-do-list-react/main/src/to-do-list3.gif)
 
 ## Technologies used in the project
 To create the application I have used:
