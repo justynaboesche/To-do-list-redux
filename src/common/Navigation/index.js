@@ -17,7 +17,6 @@ const Navigation = () => {
         </Item>
       </List>
     </Nav>
-
   );
 };
 
