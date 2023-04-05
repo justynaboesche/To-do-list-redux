@@ -28,7 +28,7 @@ export const StyledNavLink = styled(NavLink)`
     text-decoration: none;
     color: ${({ theme }) => theme.color.white};
 
-    &.active {
+    &:active {
       font-weight: bold;
     }
 
