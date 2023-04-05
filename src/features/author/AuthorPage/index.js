@@ -4,7 +4,7 @@ import Section from "../../../common/Section";
 import image from "./justyna.jpg";
 import { ImageWrapper, Image, Paragraph } from "./styled";
 
-function AuthorPage() {
+const AuthorPage = () => {
     return (
         <Container>
             <Header title="O autorze" />

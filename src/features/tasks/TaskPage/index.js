@@ -5,7 +5,7 @@ import Section from "../../../common/Section";
 import Header from "../../../common/Header";
 import { Container } from "../../../common/Container/styled";
 
-function TaskPage() {
+const TaskPage = () => {
     const { id } = useParams();
     const task = useSelector((state) => getTaskById(state, id));
 
