@@ -22,7 +22,6 @@ const Buttons = () => {
 
     return (
         <ButtonsWrapper>
-            <>
                 <Button
                     onClick={() => dispatch(toggleHideDone())}
                 >
@@ -34,7 +33,6 @@ const Buttons = () => {
                 >
                     Ukończ wszystkie
                 </Button>
-            </>
         </ButtonsWrapper>
     );
 }
