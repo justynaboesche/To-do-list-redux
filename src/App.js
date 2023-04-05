@@ -5,7 +5,7 @@ import AuthorPage from "./features/author/AuthorPage";
 import Navigation from "./common/Navigation";
 import { toAuthor, toTask, toTasks } from "./routes";
 
-export default () => (
+const App = () => (
   <HashRouter>
     <Navigation />
     <Switch>
@@ -25,3 +25,4 @@ export default () => (
   </HashRouter>
 );
 
+export default App;
