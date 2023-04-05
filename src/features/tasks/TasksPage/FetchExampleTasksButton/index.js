@@ -4,7 +4,6 @@ import { Button } from "../Button/styled";
 import { fetchExampleTasks, selectIsLoading } from "../../tasksSlice";
 
 const FetchExampleTasksButton = () => {
-
     const dispatch = useDispatch();
     const loading = useSelector(selectIsLoading);
 
