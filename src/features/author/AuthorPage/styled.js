@@ -13,5 +13,5 @@ export const Image = styled.img`
 `;
 
 export const Paragraph = styled.p`
-line-height: 1.5;
+  line-height: 1.5;
 `;
