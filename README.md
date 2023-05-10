@@ -1,4 +1,4 @@
-# To-do list - redux
+# <img src="public/web-icon3.png" height="30"/>To-do list - redux
 ![To-do list](public/To-do-list2.png) 
 ## Demo
 [See my to-do list](https://justynaboesche.github.io/To-do-list-redux/)
