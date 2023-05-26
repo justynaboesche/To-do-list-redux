@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/To-do-list-react/static/js/main.e063c48b.js",
-    "static/js/787.d93b6323.chunk.js": "/To-do-list-react/static/js/787.d93b6323.chunk.js",
-    "static/media/justyna.jpg": "/To-do-list-react/static/media/justyna.2a3a1f7f5851ca4e3c1b.jpg",
-    "index.html": "/To-do-list-react/index.html",
-    "main.e063c48b.js.map": "/To-do-list-react/static/js/main.e063c48b.js.map",
-    "787.d93b6323.chunk.js.map": "/To-do-list-react/static/js/787.d93b6323.chunk.js.map"
+    "main.js": "/To-do-list-redux/static/js/main.92961aae.js",
+    "static/js/787.d93b6323.chunk.js": "/To-do-list-redux/static/js/787.d93b6323.chunk.js",
+    "static/media/justyna.jpg": "/To-do-list-redux/static/media/justyna.2a3a1f7f5851ca4e3c1b.jpg",
+    "index.html": "/To-do-list-redux/index.html",
+    "main.92961aae.js.map": "/To-do-list-redux/static/js/main.92961aae.js.map",
+    "787.d93b6323.chunk.js.map": "/To-do-list-redux/static/js/787.d93b6323.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.e063c48b.js"
+    "static/js/main.92961aae.js"
   ]
 }
