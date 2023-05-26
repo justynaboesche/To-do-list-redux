@@ -27,12 +27,14 @@ export const Item = styled.li`
 export const StyledNavLink = styled(NavLink)`
     text-decoration: none;
     color: ${({ theme }) => theme.color.white};
+    transition: 0.3s;
+    display: block;
 
-    &:active {
+    &.active {
       font-weight: bold;
     }
 
     &:hover {
-      border-bottom: 1px solid;
+      transform: scale(1.1);
     }
 `;
